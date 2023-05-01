@@ -1,0 +1,55 @@
+.formDesign {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.welcomeText {
+    font-size: 20px;
+    /* line-height: 40px; */
+    text-decoration: underline;
+}
+
+.icon {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.iconImage {
+    width: 6rem;
+}
+
+.signInWithGoogle {
+    width: 100%;
+    padding: 10px 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0d6efd;
+    cursor: pointer;
+    background: none;
+    border-radius: 10px;
+}
+
+.signInWithGoogle>span {
+    margin-right: 20px;
+}
+
+.already>p {
+    font-size: 10px;
+}
+
+.dragndrop {
+    border: 1px dotted grey;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dragndrop>p {
+    margin-top: 1rem;
+}
